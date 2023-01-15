@@ -1,0 +1,73 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 480
+  ClientWidth = 299
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object ListBox1: TListBox
+    Align = Client
+    Size.Width = 299.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    AlternatingRowBackground = True
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    OnItemClick = ListBox1ItemClick
+    Viewport.Width = 299.000000000000000000
+    Viewport.Height = 480.000000000000000000
+  end
+  object loData: TLayout
+    Position.X = 32.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 225.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object lblNama: TLabel
+      Align = Top
+      StyledSettings = [Family]
+      Size.Width = 170.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claBlue
+      Text = 'lblNama'
+      TabOrder = 2
+    end
+    object lblAlamat: TLabel
+      Align = Client
+      StyledSettings = [Family, Style]
+      Size.Width = 170.000000000000000000
+      Size.Height = 18.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = claDarkgray
+      Text = 'Label1'
+      TabOrder = 1
+    end
+    object lblSaldo: TLabel
+      Align = MostRight
+      AutoSize = True
+      StyledSettings = [Family, Size]
+      Position.X = 170.000000000000000000
+      Size.Width = 55.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claRed
+      TextSettings.HorzAlign = Trailing
+      TextSettings.WordWrap = False
+      Text = 'Label1'
+      TabOrder = 0
+    end
+  end
+end

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/01/15 14.14.46.886,=E:\Dokumen\program\project\Unit3.pas</Transaction>
+    <Transaction>2023/01/15 15.25.18.446,E:\Dokumen\program\Sample\ItemListbox FMX\uMain.fmx=E:\Dokumen\program\project\Unit3.fmx</Transaction>
+    <Transaction>2023/01/15 15.25.18.446,E:\Dokumen\program\Sample\ItemListbox FMX\uMain.pas=E:\Dokumen\program\project\Unit3.pas</Transaction>
+    <Transaction>2023/01/15 15.25.40.314,E:\Dokumen\program\Sample\ItemListbox FMX\ItemListBoxFMX.dproj=E:\Dokumen\program\project\Project3.dproj</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>
